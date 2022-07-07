@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "dlf.pt-moon-png-2263.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "dlf.pt-moon-png-2264.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "dlf.pt-moon-png-2265.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		414DC650284F0B2A00363498 /* DetectChargeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414DC64F284F0B2A00363498 /* DetectChargeViewController.swift */; };
+		414DC653284F0CD100363498 /* BorderAnimation1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414DC652284F0CD100363498 /* BorderAnimation1.swift */; };
+		414DC655284F0D6100363498 /* EdgeSwipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414DC654284F0D6100363498 /* EdgeSwipeViewController.swift */; };
+		414DC657284F11A000363498 /* RandomTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414DC656284F11A000363498 /* RandomTextViewController.swift */; };
+		414DC659284F131A00363498 /* RandomTimeTouchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414DC658284F131A00363498 /* RandomTimeTouchViewController.swift */; };
+		414DC65C284F136200363498 /* LongTouchCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414DC65B284F136200363498 /* LongTouchCollectionViewCell.swift */; };
+		414DC65E284F157500363498 /* BorderAnimation2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414DC65D284F157500363498 /* BorderAnimation2.swift */; };
+		414DC660284F15BA00363498 /* ScreenShotDetectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414DC65F284F15BA00363498 /* ScreenShotDetectViewController.swift */; };
+		414DC662284F161900363498 /* ScreenLotationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414DC661284F161900363498 /* ScreenLotationViewController.swift */; };
+		414DC664284F179500363498 /* ShakeYourPhoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414DC663284F179500363498 /* ShakeYourPhoneViewController.swift */; };
+		414DC666284F186B00363498 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414DC665284F186B00363498 /* Reachability.swift */; };
+		414DC668284F18BE00363498 /* TurnOnWiFiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414DC667284F18BE00363498 /* TurnOnWiFiViewController.swift */; };
+		415F294C283D17A00053271B /* HelloWorldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415F294B283D17A00053271B /* HelloWorldViewController.swift */; };
+		415F2996284542C20053271B /* StackviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415F2995284542C20053271B /* StackviewViewController.swift */; };
+		415F299A28454EFB0053271B /* TextButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415F299928454EFB0053271B /* TextButtonViewController.swift */; };
+		41791770286BFFEC00FFC0A7 /* UIVIew-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4179176F286BFFEC00FFC0A7 /* UIVIew-Extension.swift */; };
+		418D74AE284DAAA3008B9BA2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418D74AD284DAAA3008B9BA2 /* HomeViewController.swift */; };
+		418D74B2284DAB77008B9BA2 /* LevelCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418D74B0284DAB77008B9BA2 /* LevelCollectionViewCell.swift */; };
+		418D74B3284DAB77008B9BA2 /* LevelCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 418D74B1284DAB77008B9BA2 /* LevelCollectionViewCell.xib */; };
+		418D74B6284DBB22008B9BA2 /* DragViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418D74B5284DBB22008B9BA2 /* DragViewController.swift */; };
+		418D74B8284DBD50008B9BA2 /* NoTapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418D74B7284DBD50008B9BA2 /* NoTapViewController.swift */; };
+		418D74BA284DBED1008B9BA2 /* OrderTouchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418D74B9284DBED1008B9BA2 /* OrderTouchViewController.swift */; };
+		418D74BC284DC006008B9BA2 /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418D74BB284DC006008B9BA2 /* AlertViewController.swift */; };
+		418D74BE284DC092008B9BA2 /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418D74BD284DC092008B9BA2 /* DatePickerViewController.swift */; };
+		418D74C0284DC20C008B9BA2 /* PinchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418D74BF284DC20C008B9BA2 /* PinchViewController.swift */; };
+		418D74C3284DC500008B9BA2 /* SwipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418D74C2284DC500008B9BA2 /* SwipeViewController.swift */; };
+		418D74C5284DC6C8008B9BA2 /* TableButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418D74C4284DC6C8008B9BA2 /* TableButtonViewController.swift */; };
+		41C5D45528335FDE008D5748 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C5D45428335FDE008D5748 /* AppDelegate.swift */; };
+		41C5D45728335FDE008D5748 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C5D45628335FDE008D5748 /* SceneDelegate.swift */; };
+		41C5D45C28335FDE008D5748 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41C5D45A28335FDE008D5748 /* Main.storyboard */; };
+		41C5D45E28335FE3008D5748 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41C5D45D28335FE3008D5748 /* Assets.xcassets */; };
+		41C5D46128335FE3008D5748 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41C5D45F28335FE3008D5748 /* LaunchScreen.storyboard */; };
+		41C5D469283360DA008D5748 /* RouletteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C5D468283360DA008D5748 /* RouletteViewController.swift */; };
+		41C5D46B28336692008D5748 /* RGBSliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C5D46A28336692008D5748 /* RGBSliderViewController.swift */; };
+		41C5D46D28337293008D5748 /* ButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C5D46C28337293008D5748 /* ButtonViewController.swift */; };
+		41C5D46F2833739B008D5748 /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C5D46E2833739B008D5748 /* PickerViewController.swift */; };
+		41CA2A6C28518692009C1FAE /* CompleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CA2A6B28518692009C1FAE /* CompleteViewController.swift */; };
+		41CA2A6E28518A53009C1FAE /* utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CA2A6D28518A53009C1FAE /* utilities.swift */; };
+		41E4948D2861815E00B2098C /* OrangeCompleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E4948C2861815E00B2098C /* OrangeCompleteViewController.swift */; };
+		41E4948F286181B200B2098C /* GreenCompleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E4948E286181B200B2098C /* GreenCompleteViewController.swift */; };
+		41E4949228643FF300B2098C /* DayChangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E4949128643FF300B2098C /* DayChangeViewController.swift */; };
+		41E494942864427700B2098C /* TimeTouchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E494932864427700B2098C /* TimeTouchViewController.swift */; };
+		41E494962864454400B2098C /* EscapeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E494952864454400B2098C /* EscapeViewController.swift */; };
+		41E4949828644FA100B2098C /* ZoominViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E4949728644FA100B2098C /* ZoominViewController.swift */; };
+		41E4949A286453E100B2098C /* Escape1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E49499286453E100B2098C /* Escape1ViewController.swift */; };
+		41E4949C2864553400B2098C /* BlueCompleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E4949B2864553400B2098C /* BlueCompleteViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		414DC64F284F0B2A00363498 /* DetectChargeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectChargeViewController.swift; sourceTree = "<group>"; };
+		414DC652284F0CD100363498 /* BorderAnimation1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderAnimation1.swift; sourceTree = "<group>"; };
+		414DC654284F0D6100363498 /* EdgeSwipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdgeSwipeViewController.swift; sourceTree = "<group>"; };
+		414DC656284F11A000363498 /* RandomTextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomTextViewController.swift; sourceTree = "<group>"; };
+		414DC658284F131A00363498 /* RandomTimeTouchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomTimeTouchViewController.swift; sourceTree = "<group>"; };
+		414DC65B284F136200363498 /* LongTouchCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongTouchCollectionViewCell.swift; sourceTree = "<group>"; };
+		414DC65D284F157500363498 /* BorderAnimation2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderAnimation2.swift; sourceTree = "<group>"; };
+		414DC65F284F15BA00363498 /* ScreenShotDetectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenShotDetectViewController.swift; sourceTree = "<group>"; };
+		414DC661284F161900363498 /* ScreenLotationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenLotationViewController.swift; sourceTree = "<group>"; };
+		414DC663284F179500363498 /* ShakeYourPhoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeYourPhoneViewController.swift; sourceTree = "<group>"; };
+		414DC665284F186B00363498 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		414DC667284F18BE00363498 /* TurnOnWiFiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurnOnWiFiViewController.swift; sourceTree = "<group>"; };
+		415F294B283D17A00053271B /* HelloWorldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldViewController.swift; sourceTree = "<group>"; };
+		415F2995284542C20053271B /* StackviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackviewViewController.swift; sourceTree = "<group>"; };
+		415F299928454EFB0053271B /* TextButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextButtonViewController.swift; sourceTree = "<group>"; };
+		4179176F286BFFEC00FFC0A7 /* UIVIew-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIVIew-Extension.swift"; sourceTree = "<group>"; };
+		418D74AD284DAAA3008B9BA2 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		418D74B0284DAB77008B9BA2 /* LevelCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelCollectionViewCell.swift; sourceTree = "<group>"; };
+		418D74B1284DAB77008B9BA2 /* LevelCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LevelCollectionViewCell.xib; sourceTree = "<group>"; };
+		418D74B5284DBB22008B9BA2 /* DragViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragViewController.swift; sourceTree = "<group>"; };
+		418D74B7284DBD50008B9BA2 /* NoTapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoTapViewController.swift; sourceTree = "<group>"; };
+		418D74B9284DBED1008B9BA2 /* OrderTouchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTouchViewController.swift; sourceTree = "<group>"; };
+		418D74BB284DC006008B9BA2 /* AlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
+		418D74BD284DC092008B9BA2 /* DatePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
+		418D74BF284DC20C008B9BA2 /* PinchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinchViewController.swift; sourceTree = "<group>"; };
+		418D74C2284DC500008B9BA2 /* SwipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeViewController.swift; sourceTree = "<group>"; };
+		418D74C4284DC6C8008B9BA2 /* TableButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableButtonViewController.swift; sourceTree = "<group>"; };
+		41C5D45128335FDE008D5748 /* PhoneDle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhoneDle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41C5D45428335FDE008D5748 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		41C5D45628335FDE008D5748 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		41C5D45B28335FDE008D5748 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		41C5D45D28335FE3008D5748 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41C5D46028335FE3008D5748 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		41C5D46228335FE3008D5748 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41C5D468283360DA008D5748 /* RouletteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouletteViewController.swift; sourceTree = "<group>"; };
+		41C5D46A28336692008D5748 /* RGBSliderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGBSliderViewController.swift; sourceTree = "<group>"; };
+		41C5D46C28337293008D5748 /* ButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonViewController.swift; sourceTree = "<group>"; };
+		41C5D46E2833739B008D5748 /* PickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
+		41CA2A6B28518692009C1FAE /* CompleteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteViewController.swift; sourceTree = "<group>"; };
+		41CA2A6D28518A53009C1FAE /* utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = utilities.swift; sourceTree = "<group>"; };
+		41E4948C2861815E00B2098C /* OrangeCompleteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrangeCompleteViewController.swift; sourceTree = "<group>"; };
+		41E4948E286181B200B2098C /* GreenCompleteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenCompleteViewController.swift; sourceTree = "<group>"; };
+		41E4949128643FF300B2098C /* DayChangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayChangeViewController.swift; sourceTree = "<group>"; };
+		41E494932864427700B2098C /* TimeTouchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTouchViewController.swift; sourceTree = "<group>"; };
+		41E494952864454400B2098C /* EscapeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscapeViewController.swift; sourceTree = "<group>"; };
+		41E4949728644FA100B2098C /* ZoominViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoominViewController.swift; sourceTree = "<group>"; };
+		41E49499286453E100B2098C /* Escape1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Escape1ViewController.swift; sourceTree = "<group>"; };
+		41E4949B2864553400B2098C /* BlueCompleteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueCompleteViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41C5D44E28335FDE008D5748 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		414DC64E284F0B0300363498 /* Purple */ = {
+			isa = PBXGroup;
+			children = (
+				414DC65A284F133800363498 /* cells */,
+				414DC64F284F0B2A00363498 /* DetectChargeViewController.swift */,
+				414DC654284F0D6100363498 /* EdgeSwipeViewController.swift */,
+				414DC656284F11A000363498 /* RandomTextViewController.swift */,
+				414DC658284F131A00363498 /* RandomTimeTouchViewController.swift */,
+				414DC65F284F15BA00363498 /* ScreenShotDetectViewController.swift */,
+				414DC661284F161900363498 /* ScreenLotationViewController.swift */,
+				414DC663284F179500363498 /* ShakeYourPhoneViewController.swift */,
+				414DC667284F18BE00363498 /* TurnOnWiFiViewController.swift */,
+			);
+			path = Purple;
+			sourceTree = "<group>";
+		};
+		414DC651284F0CC300363498 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				414DC652284F0CD100363498 /* BorderAnimation1.swift */,
+				414DC65D284F157500363498 /* BorderAnimation2.swift */,
+				414DC665284F186B00363498 /* Reachability.swift */,
+				41CA2A6D28518A53009C1FAE /* utilities.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		414DC65A284F133800363498 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				414DC65B284F136200363498 /* LongTouchCollectionViewCell.swift */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+		418D74AB284DAA5D008B9BA2 /* Orange */ = {
+			isa = PBXGroup;
+			children = (
+				41C5D468283360DA008D5748 /* RouletteViewController.swift */,
+				41C5D46A28336692008D5748 /* RGBSliderViewController.swift */,
+				41C5D46C28337293008D5748 /* ButtonViewController.swift */,
+				41C5D46E2833739B008D5748 /* PickerViewController.swift */,
+				415F294B283D17A00053271B /* HelloWorldViewController.swift */,
+				415F2995284542C20053271B /* StackviewViewController.swift */,
+				415F299928454EFB0053271B /* TextButtonViewController.swift */,
+			);
+			path = Orange;
+			sourceTree = "<group>";
+		};
+		418D74AC284DAA91008B9BA2 /* Defaults */ = {
+			isa = PBXGroup;
+			children = (
+				418D74AD284DAAA3008B9BA2 /* HomeViewController.swift */,
+				41CA2A6B28518692009C1FAE /* CompleteViewController.swift */,
+				41E4948C2861815E00B2098C /* OrangeCompleteViewController.swift */,
+				41E4948E286181B200B2098C /* GreenCompleteViewController.swift */,
+				41E4949B2864553400B2098C /* BlueCompleteViewController.swift */,
+			);
+			path = Defaults;
+			sourceTree = "<group>";
+		};
+		418D74AF284DAB5A008B9BA2 /* levelCells */ = {
+			isa = PBXGroup;
+			children = (
+				418D74B0284DAB77008B9BA2 /* LevelCollectionViewCell.swift */,
+				418D74B1284DAB77008B9BA2 /* LevelCollectionViewCell.xib */,
+			);
+			path = levelCells;
+			sourceTree = "<group>";
+		};
+		418D74B4284DBA3D008B9BA2 /* Green */ = {
+			isa = PBXGroup;
+			children = (
+				418D74B5284DBB22008B9BA2 /* DragViewController.swift */,
+				418D74B7284DBD50008B9BA2 /* NoTapViewController.swift */,
+				418D74B9284DBED1008B9BA2 /* OrderTouchViewController.swift */,
+				418D74BB284DC006008B9BA2 /* AlertViewController.swift */,
+				418D74BD284DC092008B9BA2 /* DatePickerViewController.swift */,
+				418D74BF284DC20C008B9BA2 /* PinchViewController.swift */,
+				418D74C2284DC500008B9BA2 /* SwipeViewController.swift */,
+				418D74C4284DC6C8008B9BA2 /* TableButtonViewController.swift */,
+			);
+			path = Green;
+			sourceTree = "<group>";
+		};
+		41C5D44828335FDE008D5748 = {
+			isa = PBXGroup;
+			children = (
+				41C5D45328335FDE008D5748 /* PhoneDle */,
+				41C5D45228335FDE008D5748 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		41C5D45228335FDE008D5748 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41C5D45128335FDE008D5748 /* PhoneDle.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41C5D45328335FDE008D5748 /* PhoneDle */ = {
+			isa = PBXGroup;
+			children = (
+				41E4949028643E6100B2098C /* Blue */,
+				414DC651284F0CC300363498 /* extensions */,
+				414DC64E284F0B0300363498 /* Purple */,
+				418D74B4284DBA3D008B9BA2 /* Green */,
+				418D74AF284DAB5A008B9BA2 /* levelCells */,
+				418D74AC284DAA91008B9BA2 /* Defaults */,
+				418D74AB284DAA5D008B9BA2 /* Orange */,
+				41C5D45428335FDE008D5748 /* AppDelegate.swift */,
+				41C5D45628335FDE008D5748 /* SceneDelegate.swift */,
+				41C5D45A28335FDE008D5748 /* Main.storyboard */,
+				41C5D45D28335FE3008D5748 /* Assets.xcassets */,
+				41C5D45F28335FE3008D5748 /* LaunchScreen.storyboard */,
+				41C5D46228335FE3008D5748 /* Info.plist */,
+				4179176F286BFFEC00FFC0A7 /* UIVIew-Extension.swift */,
+			);
+			path = PhoneDle;
+			sourceTree = "<group>";
+		};
+		41E4949028643E6100B2098C /* Blue */ = {
+			isa = PBXGroup;
+			children = (
+				41E4949128643FF300B2098C /* DayChangeViewController.swift */,
+				41E494932864427700B2098C /* TimeTouchViewController.swift */,
+				41E494952864454400B2098C /* EscapeViewController.swift */,
+				41E4949728644FA100B2098C /* ZoominViewController.swift */,
+				41E49499286453E100B2098C /* Escape1ViewController.swift */,
+			);
+			path = Blue;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41C5D45028335FDE008D5748 /* PhoneDle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41C5D46528335FE3008D5748 /* Build configuration list for PBXNativeTarget "PhoneDle" */;
+			buildPhases = (
+				41C5D44D28335FDE008D5748 /* Sources */,
+				41C5D44E28335FDE008D5748 /* Frameworks */,
+				41C5D44F28335FDE008D5748 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhoneDle;
+			productName = PhoneDle;
+			productReference = 41C5D45128335FDE008D5748 /* PhoneDle.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41C5D44928335FDE008D5748 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					41C5D45028335FDE008D5748 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 41C5D44C28335FDE008D5748 /* Build configuration list for PBXProject "PhoneDle" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 41C5D44828335FDE008D5748;
+			productRefGroup = 41C5D45228335FDE008D5748 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41C5D45028335FDE008D5748 /* PhoneDle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41C5D44F28335FDE008D5748 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41C5D46128335FE3008D5748 /* LaunchScreen.storyboard in Resources */,
+				41C5D45E28335FE3008D5748 /* Assets.xcassets in Resources */,
+				41C5D45C28335FDE008D5748 /* Main.storyboard in Resources */,
+				418D74B3284DAB77008B9BA2 /* LevelCollectionViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41C5D44D28335FDE008D5748 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				415F2996284542C20053271B /* StackviewViewController.swift in Sources */,
+				41C5D46F2833739B008D5748 /* PickerViewController.swift in Sources */,
+				414DC653284F0CD100363498 /* BorderAnimation1.swift in Sources */,
+				41E4948F286181B200B2098C /* GreenCompleteViewController.swift in Sources */,
+				41C5D45528335FDE008D5748 /* AppDelegate.swift in Sources */,
+				414DC65C284F136200363498 /* LongTouchCollectionViewCell.swift in Sources */,
+				41E494962864454400B2098C /* EscapeViewController.swift in Sources */,
+				418D74B2284DAB77008B9BA2 /* LevelCollectionViewCell.swift in Sources */,
+				41C5D46B28336692008D5748 /* RGBSliderViewController.swift in Sources */,
+				415F294C283D17A00053271B /* HelloWorldViewController.swift in Sources */,
+				41CA2A6E28518A53009C1FAE /* utilities.swift in Sources */,
+				41C5D45728335FDE008D5748 /* SceneDelegate.swift in Sources */,
+				41E4949228643FF300B2098C /* DayChangeViewController.swift in Sources */,
+				41E4948D2861815E00B2098C /* OrangeCompleteViewController.swift in Sources */,
+				418D74B6284DBB22008B9BA2 /* DragViewController.swift in Sources */,
+				418D74AE284DAAA3008B9BA2 /* HomeViewController.swift in Sources */,
+				414DC650284F0B2A00363498 /* DetectChargeViewController.swift in Sources */,
+				414DC668284F18BE00363498 /* TurnOnWiFiViewController.swift in Sources */,
+				41C5D46D28337293008D5748 /* ButtonViewController.swift in Sources */,
+				414DC662284F161900363498 /* ScreenLotationViewController.swift in Sources */,
+				418D74C0284DC20C008B9BA2 /* PinchViewController.swift in Sources */,
+				418D74C3284DC500008B9BA2 /* SwipeViewController.swift in Sources */,
+				414DC65E284F157500363498 /* BorderAnimation2.swift in Sources */,
+				414DC666284F186B00363498 /* Reachability.swift in Sources */,
+				41791770286BFFEC00FFC0A7 /* UIVIew-Extension.swift in Sources */,
+				418D74BC284DC006008B9BA2 /* AlertViewController.swift in Sources */,
+				41E494942864427700B2098C /* TimeTouchViewController.swift in Sources */,
+				41E4949A286453E100B2098C /* Escape1ViewController.swift in Sources */,
+				414DC664284F179500363498 /* ShakeYourPhoneViewController.swift in Sources */,
+				418D74BE284DC092008B9BA2 /* DatePickerViewController.swift in Sources */,
+				41C5D469283360DA008D5748 /* RouletteViewController.swift in Sources */,
+				415F299A28454EFB0053271B /* TextButtonViewController.swift in Sources */,
+				414DC660284F15BA00363498 /* ScreenShotDetectViewController.swift in Sources */,
+				41E4949828644FA100B2098C /* ZoominViewController.swift in Sources */,
+				41CA2A6C28518692009C1FAE /* CompleteViewController.swift in Sources */,
+				418D74C5284DC6C8008B9BA2 /* TableButtonViewController.swift in Sources */,
+				418D74B8284DBD50008B9BA2 /* NoTapViewController.swift in Sources */,
+				414DC659284F131A00363498 /* RandomTimeTouchViewController.swift in Sources */,
+				41E4949C2864553400B2098C /* BlueCompleteViewController.swift in Sources */,
+				414DC655284F0D6100363498 /* EdgeSwipeViewController.swift in Sources */,
+				414DC657284F11A000363498 /* RandomTextViewController.swift in Sources */,
+				418D74BA284DBED1008B9BA2 /* OrderTouchViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		41C5D45A28335FDE008D5748 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41C5D45B28335FDE008D5748 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		41C5D45F28335FE3008D5748 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41C5D46028335FE3008D5748 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		41C5D46328335FE3008D5748 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		41C5D46428335FE3008D5748 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41C5D46628335FE3008D5748 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZADA25JZ4A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PhoneDle/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.YourCompany.PhoneDle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		41C5D46728335FE3008D5748 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZADA25JZ4A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PhoneDle/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.YourCompany.PhoneDle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41C5D44C28335FDE008D5748 /* Build configuration list for PBXProject "PhoneDle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41C5D46328335FE3008D5748 /* Debug */,
+				41C5D46428335FE3008D5748 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41C5D46528335FE3008D5748 /* Build configuration list for PBXNativeTarget "PhoneDle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41C5D46628335FE3008D5748 /* Debug */,
+				41C5D46728335FE3008D5748 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41C5D44928335FDE008D5748 /* Project object */;
+}
